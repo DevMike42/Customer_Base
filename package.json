@@ -1,0 +1,16 @@
+{
+  "name": "customer_base",
+  "version": "1.0.0",
+  "description": "Simple GraphQL Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Rivera",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "nodemon": "^2.0.7"
+  }
+}
