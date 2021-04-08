@@ -4,13 +4,14 @@
   "description": "Simple GraphQL Server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "nodemon server.js"
   },
   "author": "Mike Rivera",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
     "nodemon": "^2.0.7"
   }
 }
